@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.djsaiyesh.team.studenthub.Calculator"
+    android:background="@drawable/shinywhite">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top">
+        <LinearLayout  android:layout_width="400dp"
+            android:layout_height="fill_parent" android:padding="10dp"
+
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context="com.djsaiyesh.team.studenthub.Register"
+            android:id="@+id/linearLayout2"
+            android:layout_alignParentEnd="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendance Calculator"
+            android:id="@+id/textView4"
+            android:layout_marginTop="62dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#212643" />
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                > <EditText
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/pastattend"
+                android:layout_marginTop="46dp"
+                android:layout_below="@+id/textView4"
+                android:hint="@string/pastattend"
+                android:layout_alignStart="@+id/textView4" /></android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">  <EditText
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/pasttotal"
+                android:layout_below="@+id/pastattend"
+                android:layout_alignStart="@+id/pastattend"
+                android:hint="@string/pasttotal"
+                android:layout_marginTop="29dp"
+                android:layout_alignEnd="@+id/pastattend" /></android.support.design.widget.TextInputLayout>
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">  <EditText
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/futureattend"
+                android:hint="@string/futureattend"
+                android:layout_marginTop="33dp"
+                android:layout_below="@+id/pasttotal"
+                android:layout_alignStart="@+id/futuretotal" /></android.support.design.widget.TextInputLayout>
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">   <EditText
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/futuretotal"
+                android:hint="@string/futuretotal"
+                android:layout_marginTop="24dp"
+                android:layout_below="@+id/futureattend"
+                android:layout_centerHorizontal="true" /></android.support.design.widget.TextInputLayout>
+
+
+
+
+            <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:id="@+id/cal"
+            android:background="@layout/ovalshape"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="calculate"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout></ScrollView>
+</FrameLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "890517361789",
+    "firebase_url": "https://studentspot-1ce0b.firebaseio.com",
+    "project_id": "studentspot-1ce0b",
+    "storage_bucket": "studentspot-1ce0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890517361789:android:db47e7a909d520c8",
+        "android_client_info": {
+          "package_name": "com.djsaiyesh.team.studenthub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890517361789-2onkcorok9gcgcnh84n40sloiu1t1h00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdmO1DzvfTlNUx0lexGI0BzWMXlq1SdGs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

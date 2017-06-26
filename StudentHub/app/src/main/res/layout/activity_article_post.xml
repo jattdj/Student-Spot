@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen1"
+    tools:context="com.djsaiyesh.team.studenthub.ArticlePost">
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's in your Mind ?"
+        android:textSize="20dp"
+        android:maxLength="200"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/post"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:lines="3"
+        android:maxLength="140"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/article_post_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/post"
+        android:background="@layout/ovalshape"
+        android:onClick="poststatus"
+        android:text="POST" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Feeling :"
+        android:textSize="20dp"
+        android:layout_below="@+id/post"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/feeling"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/post"
+        android:layout_marginStart="36dp"
+        android:layout_toEndOf="@+id/textView18"
+        android:entries="@array/feeling" />
+</RelativeLayout>

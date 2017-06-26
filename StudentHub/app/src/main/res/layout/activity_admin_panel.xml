@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.djsaiyesh.team.studenthub.AdminPanel">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="293dp"
+        android:layout_height="176dp"
+        android:src="@drawable/admin"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="-6dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/panel"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@layout/ovalshape"
+        android:text="Create Notification"
+        android:onClick="publish"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="24dp"
+        android:background="@layout/ovalshape"
+        android:text="Check Feedbacks"
+        android:onClick="feedback"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button5"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="26dp"
+        android:background="@layout/ovalshape"
+        android:text="Update Attendance"
+        android:onClick="updateattendance"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="15dp"
+        android:onClick="logout"
+        android:src="@drawable/logouttwo" />
+
+
+</RelativeLayout>

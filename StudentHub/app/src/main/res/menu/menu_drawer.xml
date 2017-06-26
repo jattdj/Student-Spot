@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home" android:icon="@drawable/home"
+            android:title="Home"
+            />
+        <item android:id="@+id/attendance" android:icon="@drawable/attendance"
+            android:title="Attendace" />
+        <item android:id="@+id/marks" android:icon="@drawable/marks"
+            android:title="Marks" />
+        <item android:id="@+id/calculator" android:icon="@drawable/calculator"
+            android:title="Attendance Calculator" />
+        <item android:id="@+id/jntu" android:icon="@drawable/jntu"
+            android:title="JNTU Results" />
+        <item android:id="@+id/profile" android:icon="@drawable/profileone"
+            android:title="Search Profile" />
+    </group>
+
+    <item android:title="Accessibility">
+        <menu>
+            <item android:id="@+id/setting" android:icon="@drawable/setting"
+                android:title="Settings" />
+            <item android:id="@+id/feedback" android:icon="@drawable/feedback1"
+                android:title="Feedback" />
+            <item android:id="@+id/logout" android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
